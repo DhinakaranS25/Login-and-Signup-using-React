@@ -97,6 +97,7 @@ const LoginSignup = () => {
                 )}
                 
             </div>
+            {error && <p className="error-message">{error}</p>}
         </div>
     );
 };
